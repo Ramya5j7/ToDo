@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Add Task</title>
+<style>
+#forms {
+background-color: #000000;
+margin-rightL:150px;
+margin-left: 350px;
+border: 50px;
+padding: 50px;
+width: 500px;
+font-family: sans-serif;
+font-size: 30px;
+color: #ffffff;
+
+
+}
+#button0 {
+background-color: #ffffff;
+
+font-size: 38px;
+}
+#button {
+font-size: 20px;
+background-color: #ffffff;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#button1 {
+font-size: 20px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body {
+background-image: url("https://www.elsetge.cat/myimg/f/51-515550_keyboard-memo-message-office-paper-reminder-sticky-sticky.jpg");
+height: 120%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+ 
+}
+
+</style>
+</head>
+<body>
+<br>
+<br>
+<div style="font-size:60px">
+<header align="center" style="color:#77b300; background-color: #000000"><b> ToDoApp </b></header>
+</div>
+<br>
+<hr>
+<br>
+<div id="button0"  align="center">
+</div>
+<br>
+<div>
+<br>
+<br>
+<div id="forms" >
+<form action="AddTask" method="get" >
+<caption >ADD TASK </caption>
+<br>
+<hr>
+
+TaskName:
+<input type="text" name="Task name" placeholder="Enter your first name"  id="button1" required><br>
+<br>
+Remainder Date:
+<input type="date" name="Remainder Date"  placeholder="Enter task date"  id="button1" required>
+<br>
+<br>
+Remainder Time:
+<input type="time" name="Remainder Time"  placeholder="Enter task time"  id="button1" required>
+<br>
+<br>
+<br>
+<input type="submit" value="Submit" id="button">
+                        <input type="reset" value="Cancel" id="button">
+ </form>
+</div>  
+
+
+</body>
+</html>
